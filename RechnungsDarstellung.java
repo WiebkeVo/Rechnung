@@ -1,5 +1,8 @@
+import java.util.ArrayList;
+
 interface RechnungsDarstellung {
 
-	public void drucken();
+	public void drucken(ArrayList<Artikel> artikelList);
 	
 }
+
